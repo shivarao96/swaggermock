@@ -1,2 +1,2 @@
-export * from './inventoryItem';
-export * from './manufacturer';
+export * from './gameDS';
+export * from './playerModel';

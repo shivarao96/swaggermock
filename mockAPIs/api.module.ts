@@ -3,16 +3,14 @@ import { Configuration } from './configuration';
 import { HttpClient } from '@angular/common/http';
 
 
-import { AdminsService } from './api/admins.service';
-import { DevelopersService } from './api/developers.service';
+import { MockService } from './api/mock.service';
 
 @NgModule({
   imports:      [],
   declarations: [],
   exports:      [],
   providers: [
-    AdminsService,
-    DevelopersService ]
+    MockService ]
 })
 export class ApiModule {
     public static forRoot(configurationFactory: () => Configuration): ModuleWithProviders {
